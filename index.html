@@ -13,9 +13,21 @@
 </head>
 
 <body>
-	
+	<header class="kolbig">
+		<h1 class="kol-3 centerkol text-center">
+			See Soon!
+		</h1><br>
+		<h2 class="kol-3 centerkol text-center">
+			#Lifefonts | Follow us
+		</h2>
+	</header>
 	<script src="js/modernizr-2.8.3.min.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/jquery.fittext.js"></script>
+	<script src="js/web.js"></script>
+	<script>
+		jQuery("header h1").fitText(0.6, { minFontSize: '30px', maxFontSize: '2000000000px' });
+	</script>
 </body>
 
 </html>
