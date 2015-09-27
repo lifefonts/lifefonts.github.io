@@ -1,0 +1,13 @@
+@font-face {
+	font-family: font_tittle;
+	src: url(fonts/Bellico.ttf);
+}
+
+@font-face {
+	font-family: font_text;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+body {
+	text-rendering: optimizeLegibility;
+}
