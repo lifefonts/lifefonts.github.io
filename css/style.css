@@ -49,7 +49,7 @@ header h2 {
 	margin-top: 50px !important;
 }
 
-section article>p{
+section div>p{
 	color: #FFF;
 	font-family: font_text;
 	line-height: 55px;
