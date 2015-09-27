@@ -46,3 +46,7 @@ header h2{
 	font-family: font_text;
 	margin-top: 50px !important;
 }
+
+#more{
+	cursor: pointer;
+}
