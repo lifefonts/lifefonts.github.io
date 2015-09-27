@@ -49,6 +49,13 @@ header h2 {
 	margin-top: 50px !important;
 }
 
+section article>p{
+	color: #FFF;
+	font-family: font_text;
+	line-height: 55px;
+	text-align: justify;
+}
+
 #more {
 	cursor: pointer;
 }
@@ -66,5 +73,8 @@ header h2 {
 
 #font1 {
 	background-color: #2CB1FF;
-	margin-top: 12% !important;
+	margin-top: 10% !important;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 50px;
 }
