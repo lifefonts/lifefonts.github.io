@@ -56,10 +56,21 @@ section article>p{
 	text-align: justify;
 }
 
+section footer>p{
+	color: #FFF;
+	font-family: font_text;
+	line-height: 55px;
+	margin-top: 20px !important;
+}
+
+section footer>a{
+	color: #FFF !important;
+}
+
 #more {
 	cursor: pointer;
 }
-
+/**********************************/
 #font1 header>h3 {
 	font-family: fuente1;
 	color: #FFF;
@@ -76,5 +87,25 @@ section article>p{
 	margin-top: 10% !important;
 	padding-left: 50px;
 	padding-right: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 80px;
+}
+
+/**********************************/
+#font2 header>h3 {
+	font-family: fuente2;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#font2 header{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+#font2 {
+	background-color: #F3BB3E;
+	margin-top: -20px !important;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 80px;
 }

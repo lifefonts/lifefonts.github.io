@@ -10,6 +10,11 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 	<link rel="stylesheet" href="css/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
 	<title>LifeFonts</title>
+	<style>
+		section footer>a {
+			color: #FFF !important;
+		}
+	</style>
 </head>
 
 <body onload="loadfontprimary();">
@@ -33,9 +38,24 @@
 			</p>
 		</article>
 		<footer>
-			<p class="text-center">#CabinSketch-Regular | <a href="#">Download font</a></p>
+			<p class="text-center">#CabinSketch-Regular | <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Cabin+Sketch" target="_blank">Download font</a></p>
 		</footer>
 	</section>
+
+	<section class="kol-90 centerkol" id="font2">
+		<header>
+			<h3 class="text-center">Summer like Spring is lovely</h3>
+		</header>
+		<article class="text">
+			<p>
+				Mauris elit enim, porttitor egestas ligula sed, molestie dignissim enim. Phasellus vel molestie turpis. Sed quis mi ut lorem vehicula consequat. Vestibulum ullamcorper sapien non lorem dignissim, quis pretium orci vulputate. Phasellus sed magna euismod, pharetra nulla in, efficitur nisi.
+			</p>
+		</article>
+		<footer>
+			<p class="text-center">#Damion-Regular | <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Cabin+Sketch" target="_blank">Download font</a></p>
+		</footer>
+	</section>
+
 	<script src="js/modernizr-2.8.3.min.js"></script>
 	<script src="js/jquery-1.11.2.min.js"></script>
 	<script src="js/jquery.fittext.js"></script>
@@ -54,6 +74,14 @@
 			maxFontSize: '60px'
 		});
 		jQuery("#font1 p").fitText(1, {
+			minFontSize: '10px',
+			maxFontSize: '28px'
+		});
+		jQuery("#font2 h3").fitText(1, {
+			minFontSize: '10px',
+			maxFontSize: '60px'
+		});
+		jQuery("#font2 p").fitText(1, {
 			minFontSize: '10px',
 			maxFontSize: '28px'
 		});
