@@ -109,3 +109,23 @@ section footer>a{
 	padding-right: 50px;
 	padding-bottom: 80px;
 }
+
+/**********************************/
+#font3 header>h3 {
+	font-family: fuente3;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#font3 header{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+#font3 {
+	background-color: lightpink;
+	margin-top: -20px !important;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 80px;
+}
