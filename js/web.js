@@ -6,6 +6,7 @@ var texto5 = "Sweet mouth";
 var texto6 = "Beauty cat";
 var texto7 = "Unreal life";
 var texto8 = "Summer like Spring";
+var texto9 = "The moon is full"
 
 var fuente1 = "fuente1";
 var fuente2 = "fuente2";
@@ -18,7 +19,7 @@ var fuente7 = "";
 
 
 function loadfontprimary() {
-	var rtexto = Math.floor((Math.random() * 8) + 1);
+	var rtexto = Math.floor((Math.random() * 9) + 1);
 	var rfuente = Math.floor((Math.random() * 4) + 1);
 
 	if (rtexto == 1) {
@@ -44,6 +45,10 @@ function loadfontprimary() {
 							} else {
 								if (rtexto == 8) {
 									$("header h1").html(texto8);
+								} else {
+									if (rtexto == 9) {
+										$("header h1").html(texto9);
+									}
 								}
 							}
 						}
