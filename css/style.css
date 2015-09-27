@@ -138,3 +138,9 @@ section footer>a{
 	margin-top: 40px !important;
 	cursor: crosshair;
 }
+
+@media (max-width: 700px) {	
+	section article>p{
+		display: none;
+	}
+}
