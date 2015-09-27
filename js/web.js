@@ -1,23 +1,71 @@
-var texto1 ="See Soon!";
-var texto2 ="Au revoir";
-var texto3 ="That new girl";
-var texto4 ="Pinky nose";
-var texto5 ="Sweet mouth";
-var texto6 ="Beauty cat";
-var texto7 ="Unreal life";
-var texto8 ="Summer like Spring";
+var texto1 = "See Soon!";
+var texto2 = "Au revoir";
+var texto3 = "That new girl";
+var texto4 = "Pinky nose";
+var texto5 = "Sweet mouth";
+var texto6 = "Beauty cat";
+var texto7 = "Unreal life";
+var texto8 = "Summer like Spring";
 
-var fuente1 = "CabinSketch-Regular.ttf";
-var fuente2 = "Damion-Regular.ttf";
-var fuente3 = "MarkoOne-Regular.ttf";
-var fuente4 = "McLaren-Regular.ttf";
+var fuente1 = "fuente1";
+var fuente2 = "fuente2";
+var fuente3 = "fuente3";
+var fuente4 = "fuente4";
 var fuente5 = "";
 var fuente6 = "";
 var fuente7 = "";
 
-var rtext = Math.floor((Math.random() * 8) + 1);
-var rfuent = Math.floor((Math.random() * 4) + 1);
 
-function loadfontprimary(){
-	
+
+function loadfontprimary() {
+	var rtexto = Math.floor((Math.random() * 8) + 1);
+	var rfuente = Math.floor((Math.random() * 4) + 1);
+
+	if (rtexto == 1) {
+		$("header h1").html(texto1);
+	} else {
+		if (rtexto == 2) {
+			$("header h1").html(texto2);
+		} else {
+			if (rtexto == 3) {
+				$("header h1").html(texto3);
+			} else {
+				if (rtexto == 4) {
+					$("header h1").html(texto4);
+				} else {
+					if (rtexto == 5) {
+						$("header h1").html(texto5);
+					} else {
+						if (rtexto == 6) {
+							$("header h1").html(texto6);
+						} else {
+							if (rtexto == 7) {
+								$("header h1").html(texto7);
+							} else {
+								if (rtexto == 8) {
+									$("header h1").html(texto8);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	if (rfuente == 1) {
+		$("header h1").css("font-family", fuente1);
+	} else {
+		if (rfuente == 2) {
+			$("header h1").css("font-family", fuente2);
+		} else {
+			if (rfuente == 3) {
+				$("header h1").css("font-family", fuente3);
+			} else {
+				if (rfuente == 4) {
+					$("header h1").css("font-family", fuente4);
+				}
+			}
+		}
+	}
 }
