@@ -10,6 +10,7 @@
 
 body {
 	text-rendering: optimizeLegibility;
+	padding: 20px;
 }
 
 header{
