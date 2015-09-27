@@ -3,27 +3,29 @@
 	src: url(fonts/text.ttf);
 }
 
+
 /*****************************************LAS FUENTES**********************************************/
 
 @font-face {
 	font-family: fuente1;
-	src:url(fonts/CabinSketch-Regular.ttf)
+	src: url(fonts/CabinSketch-Regular.ttf)
 }
 
 @font-face {
 	font-family: fuente2;
-	src:url(fonts/Damion-Regular.ttf)
+	src: url(fonts/Damion-Regular.ttf)
 }
 
 @font-face {
 	font-family: fuente3;
-	src:url(fonts/MarkoOne-Regular.ttf)
+	src: url(fonts/MarkoOne-Regular.ttf)
 }
 
 @font-face {
 	font-family: fuente4;
-	src:url(fonts/McLaren-Regular.ttf)
+	src: url(fonts/McLaren-Regular.ttf)
 }
+
 
 /**************************************************************************************************/
 
@@ -36,17 +38,33 @@ header{
 	padding-top: 6% !important;
 }
 
-header h1{
+header h1 {
 	border: 10px solid;
 	padding-bottom: 100px !important;
 	padding-top: 100px !important;
 }
 
-header h2{
+header h2 {
 	font-family: font_text;
 	margin-top: 50px !important;
 }
 
-#more{
+#more {
 	cursor: pointer;
+}
+
+#font1 header>h3 {
+	font-family: fuente1;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#font1 header{
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+#font1 {
+	background-color: #2CB1FF;
+	margin-top: 12% !important;
 }
