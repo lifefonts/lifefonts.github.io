@@ -34,7 +34,7 @@ body {
 	padding: 20px;
 }
 
-header{
+header {
 	padding-top: 6% !important;
 }
 
@@ -49,35 +49,38 @@ header h2 {
 	margin-top: 50px !important;
 }
 
-section div>p{
+section div>p {
 	color: #FFF;
 	font-family: font_text;
 	line-height: 55px;
 	text-align: justify;
 }
 
-section footer>p{
+section footer>p {
 	color: #FFF;
 	font-family: font_text;
 	line-height: 55px;
 	margin-top: 20px !important;
 }
 
-section footer>a{
+section footer>a {
 	color: #FFF !important;
 }
 
 #more {
 	cursor: pointer;
 }
+
+
 /**********************************/
+
 #font1 header>h3 {
 	font-family: fuente1;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #000;
 }
 
-#font1 header{
+#font1 header {
 	padding-top: 2% !important;
 	padding-bottom: 2% !important;
 }
@@ -90,14 +93,16 @@ section footer>a{
 	padding-bottom: 80px;
 }
 
+
 /**********************************/
+
 #font2 header>h3 {
 	font-family: fuente2;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #000;
 }
 
-#font2 header{
+#font2 header {
 	padding-top: 2% !important;
 	padding-bottom: 2% !important;
 }
@@ -110,14 +115,16 @@ section footer>a{
 	padding-bottom: 80px;
 }
 
+
 /**********************************/
+
 #font3 header>h3 {
 	font-family: fuente3;
 	color: #FFF;
 	text-shadow: 1px 1px 1px #000;
 }
 
-#font3 header{
+#font3 header {
 	padding-top: 2% !important;
 	padding-bottom: 2% !important;
 }
@@ -130,7 +137,32 @@ section footer>a{
 	padding-bottom: 80px;
 }
 
-#circle{
+
+/**********************************/
+
+#font4 header>h3 {
+	font-family: fuente4;
+	color: #FFF;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#font4 header {
+	padding-top: 2% !important;
+	padding-bottom: 2% !important;
+}
+
+#font4 {
+	background-color: greenyellow;
+	margin-top: -20px !important;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 80px;
+	opacity: 0;
+	transition: 0.5s;
+	display: none;
+}
+
+#circle {
 	border: 3px solid #ccc;
 	width: 12em;
 	height: 12em;
@@ -139,8 +171,8 @@ section footer>a{
 	cursor: crosshair;
 }
 
-@media (max-width: 700px) {	
-	section article>p{
+@media (max-width: 700px) {
+	section article>p {
 		display: none;
 	}
 }

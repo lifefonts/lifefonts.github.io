@@ -15,7 +15,7 @@
 	<meta name="robots" content="index,follow">
 	<meta name="google-site-verification" content="yvfNdMs_Mo5y1iDudBFGkzOXeH4v9pRUtuA7se0QGSo" />
 	<link rel="alternate" hreflang="en" href="http://lifefonts.github.io/" />
-	<link rel="shortcut icon" href="css/img/icon.gif" type="image/gif"/>
+	<link rel="shortcut icon" href="css/img/icon.gif" type="image/gif" />
 	<link rel="canonical" href="http://lifefonts.github.io/">
 	<link rel="stylesheet" type="text/css" href="css/normalize.min.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="css/robyt2.css" media="screen" />
@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="css/fonts/font-awesome-4.4.0/css/font-awesome.min.css">
 </head>
 
-<body onload="loadfontprimary();">
+<body onload="loadfontprimary(); resizefont();">
 	<header class="kolbig">
 		<h1 class="kol-3 centerkol text-center" id="more" onclick="loadfontprimary();">
 			See Soon!
@@ -76,7 +76,21 @@
 		</footer>
 	</section>
 
-	<div class="centerkol" id="circle">
+	<section class="kol-90 centerkol" id="font4">
+		<header>
+			<h3 class="text-center">Pinky nose like a foot</h3>
+		</header>
+		<div class="text">
+			<p>
+				Serious typography for titles or section headings with great importance. No use for normal text as it can be tiring to view.
+			</p>
+		</div>
+		<footer>
+			<p class="text-center">#MarkoOne-Regular | <a href="https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Marko+One" target="_blank">Download font</a></p>
+		</footer>
+	</section>
+
+	<div class="centerkol" id="circle" onclick="loadmore();">
 
 	</div>
 
@@ -86,38 +100,48 @@
 	<script src="js/jquery.fittext.js"></script>
 	<script src="js/web.js"></script>
 	<script>
-		jQuery("header h1").fitText(0.6, {
-			minFontSize: '30px',
-			maxFontSize: '2000000000px'
-		});
-		jQuery("header h2").fitText(1.4, {
-			minFontSize: '10px',
-			maxFontSize: '40px'
-		});
-		jQuery("#font1 h3").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '60px'
-		});
-		jQuery("#font1 p").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '28px'
-		});
-		jQuery("#font2 h3").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '60px'
-		});
-		jQuery("#font2 p").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '28px'
-		});
-		jQuery("#font3 h3").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '60px'
-		});
-		jQuery("#font3 p").fitText(1, {
-			minFontSize: '10px',
-			maxFontSize: '28px'
-		});
+		function resizefont() {
+			jQuery("header h1").fitText(0.6, {
+				minFontSize: '30px',
+				maxFontSize: '2000000000px'
+			});
+			jQuery("header h2").fitText(1.4, {
+				minFontSize: '10px',
+				maxFontSize: '40px'
+			});
+			jQuery("#font1 h3").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '60px'
+			});
+			jQuery("#font1 p").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '28px'
+			});
+			jQuery("#font2 h3").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '60px'
+			});
+			jQuery("#font2 p").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '28px'
+			});
+			jQuery("#font3 h3").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '60px'
+			});
+			jQuery("#font3 p").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '28px'
+			});
+			jQuery("#font4 h3").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '60px'
+			});
+			jQuery("#font4 p").fitText(1, {
+				minFontSize: '10px',
+				maxFontSize: '28px'
+			});
+		}
 	</script>
 </body>
 

@@ -74,3 +74,16 @@ function loadfontprimary() {
 		}
 	}
 }
+
+var cantifont = 3;
+function loadmore(){
+	for(var i = cantifont+1; i<=cantifont+3; i++){
+		if ( document.getElementById( "font"+i )) {
+			$("#font"+i).css("opacity","1");
+			$("#font"+i).css("display","block");
+			
+		}
+		resizefont();
+	}
+	cantifont = cantifont+3;
+}
