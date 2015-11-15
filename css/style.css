@@ -26,6 +26,24 @@
 	src: url(fonts/McLaren-Regular.ttf)
 }
 
+::-webkit-input-placeholder {
+	color: #FFF;
+}
+
+:-moz-placeholder {
+	/* Firefox 18- */
+	color: #FFF;
+}
+
+::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #FFF;
+}
+
+:-ms-input-placeholder {
+	color: #FFF;
+}
+
 
 /**************************************************************************************************/
 
@@ -67,7 +85,7 @@
 
 body {
 	text-rendering: optimizeLegibility;
-	padding: 20px;
+	padding: 40px;
 	background: linear-gradient(270deg, #4595e3, #e34977);
 	background-size: 400% 400%;
 	-webkit-animation: AnimationName 8s ease infinite;
@@ -79,6 +97,17 @@ header h1 {
 	font-family: font_text;
 	color: #FFF;
 	margin-top: 6em;
+}
+
+.textmedium{
+	font-size: 24px;
+	word-wrap: break-word;
+}
+
+.whereisthefont{
+	background: rgba(255, 255, 255, 0.80);
+	padding: 20px;
+	box-shadow: 1px 1px 1px #333;
 }
 
 #textuser {
@@ -95,4 +124,8 @@ header h1 {
 	color: #FFF;
 	cursor: pointer;
 	border-left: 0px;
+}
+
+#herefonts{
+	
 }
