@@ -12,6 +12,7 @@ $(document).ready(function () {
 function createfonts() {
 	$(".container").css("opacity","0");
 	$("#herefonts").css("display","block");
+	$("#herefonts").html("");
 	$('html, body').animate({scrollTop:$("#herefonts").offset().top},1000);
 	for (var i = 1; i <= 4; i++) {
 		var valor = Math.floor((Math.random() * 3) + 2);
