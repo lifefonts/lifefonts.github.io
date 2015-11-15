@@ -33,3 +33,7 @@ body {
 	text-rendering: optimizeLegibility;
 	padding: 20px;
 }
+
+header h1{
+	font-family: font_text;
+}
