@@ -49,7 +49,7 @@ function createfonts() {
 	$('html, body').animate({
 		scrollTop: $("#herefonts").offset().top
 	}, 1000);
-	if ($("#textuser").val() == "") {
+	if ($("#textuser").val() != "") {
 		for (var i = 0; i < 28; i++) {
 			var valor = Math.floor((Math.random() * 3) + 2);
 			$("#herefonts").append("<a href='" + a[i] + "' target='_blank'><div class='kol-" + valor + " textmedium' style='font-family:fuente" + i + "'><div class='kol-90 centerkol whereisthefont'>" + $("#textuser").val() + "</div></div></a>")
