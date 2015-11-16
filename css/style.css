@@ -25,6 +25,30 @@
 	font-family: fuente3;
 	src: url(fonts/McLaren-Regular.ttf)
 }
+@font-face {
+	font-family: fuente4;
+	src: url(fonts/AmaticSC-Regular.ttf)
+}
+@font-face {
+	font-family: fuente5;
+	src: url(fonts/ArchitectsDaughter.ttf)
+}
+@font-face {
+	font-family: fuente6;
+	src: url(fonts/Bangers.ttf)
+}
+@font-face {
+	font-family: fuente7;
+	src: url(fonts/BlackOpsOne-Regular.ttf)
+}
+@font-face {
+	font-family: fuente8;
+	src: url(fonts/ComingSoon.ttf)
+}
+@font-face {
+	font-family: fuente9;
+	src: url(fonts/CoveredByYourGrace.ttf)
+}
 
 ::-webkit-input-placeholder {
 	color: #FFF;
