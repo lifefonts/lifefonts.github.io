@@ -7,22 +7,22 @@
 /*****************************************LAS FUENTES**********************************************/
 
 @font-face {
-	font-family: fuente1;
+	font-family: fuente0;
 	src: url(fonts/CabinSketch-Regular.ttf)
 }
 
 @font-face {
-	font-family: fuente2;
+	font-family: fuente1;
 	src: url(fonts/Damion-Regular.ttf)
 }
 
 @font-face {
-	font-family: fuente3;
+	font-family: fuente2;
 	src: url(fonts/MarkoOne-Regular.ttf)
 }
 
 @font-face {
-	font-family: fuente4;
+	font-family: fuente3;
 	src: url(fonts/McLaren-Regular.ttf)
 }
 

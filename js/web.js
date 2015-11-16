@@ -3,7 +3,7 @@ var link2 = "https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Damion";
 var link3 = "https://www.google.com/fonts#QuickUsePlace:quickUse/Family:Marko+One";
 var link4 = "https://www.google.com/fonts#QuickUsePlace:quickUse/Family:McLaren";
 
-
+var a=[link1,link2,link3,link4];
 
 $(window).resize(function () {
 	$("header").css('height', $(window).height() + "px");
@@ -21,9 +21,9 @@ function createfonts() {
 	$("#herefonts").css("display","block");
 	$("#herefonts").html("");
 	$('html, body').animate({scrollTop:$("#herefonts").offset().top},1000);
-	for (var i = 1; i <= 4; i++) {
+	for (var i = 0; i < 4; i++) {
 		var valor = Math.floor((Math.random() * 3) + 2);
-		$("#herefonts").append("<a href='"+link+i+"' targe='_blank'><div class='kol-"+valor+" textmedium' style='font-family:fuente"+i+"'><div class='kol-90 centerkol whereisthefont'>"+$("#textuser").val()+"</div></div></a>")
+		$("#herefonts").append("<a href='"+a[i]+"' target='_blank'><div class='kol-"+valor+" textmedium' style='font-family:fuente"+i+"'><div class='kol-90 centerkol whereisthefont'>"+$("#textuser").val()+"</div></div></a>")
 	}
 }
 
