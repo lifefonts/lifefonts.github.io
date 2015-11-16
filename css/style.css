@@ -8,46 +8,142 @@
 
 @font-face {
 	font-family: fuente0;
-	src: url(fonts/CabinSketch-Regular.ttf)
+	src: url(fonts/CabinSketch-Regular.ttf);
 }
 
 @font-face {
 	font-family: fuente1;
-	src: url(fonts/Damion-Regular.ttf)
+	src: url(fonts/Damion-Regular.ttf);
 }
 
 @font-face {
 	font-family: fuente2;
-	src: url(fonts/MarkoOne-Regular.ttf)
+	src: url(fonts/MarkoOne-Regular.ttf);
 }
 
 @font-face {
 	font-family: fuente3;
-	src: url(fonts/McLaren-Regular.ttf)
+	src: url(fonts/McLaren-Regular.ttf);
 }
+
 @font-face {
 	font-family: fuente4;
-	src: url(fonts/AmaticSC-Regular.ttf)
+	src: url(fonts/AmaticSC-Regular.ttf);
 }
+
 @font-face {
 	font-family: fuente5;
-	src: url(fonts/ArchitectsDaughter.ttf)
+	src: url(fonts/ArchitectsDaughter.ttf);
 }
+
 @font-face {
 	font-family: fuente6;
-	src: url(fonts/Bangers.ttf)
+	src: url(fonts/Bangers.ttf);
 }
+
 @font-face {
 	font-family: fuente7;
-	src: url(fonts/BlackOpsOne-Regular.ttf)
+	src: url(fonts/BlackOpsOne-Regular.ttf);
 }
+
 @font-face {
 	font-family: fuente8;
-	src: url(fonts/ComingSoon.ttf)
+	src: url(fonts/ComingSoon.ttf);
 }
+
 @font-face {
 	font-family: fuente9;
-	src: url(fonts/CoveredByYourGrace.ttf)
+	src: url(fonts/CoveredByYourGrace.ttf);
+}
+
+@font-face {
+	font-family: fuente10;
+	src: url(fonts/CraftyGirls.ttf);
+}
+
+@font-face {
+	font-family: fuente11;
+	src: url(fonts/Chewy.ttf);
+}
+
+@font-face {
+	font-family: fuente12;
+	src: url(fonts/DancingScript-Regular.ttf);
+}
+
+@font-face {
+	font-family: fuente13;
+	src: url(fonts/GloriaHallelujah.ttf);
+}
+
+@font-face {
+	font-family: fuente14;
+	src: url(fonts/HomemadeApple.ttf);
+}
+
+@font-face {
+	font-family: fuente15;
+	src: url(fonts/IndieFlower.ttf);
+}
+
+@font-face {
+	font-family: fuente16;
+	src: url(fonts/MountainsofChristmas-Regular.ttf);
+}
+
+@font-face {
+	font-family: fuente17;
+	src: url(fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+	font-family: fuente18;
+	src: url(fonts/Pacifico.ttf);
+}
+
+@font-face {
+	font-family: fuente19;
+	src: url(fonts/PermanentMarker.ttf);
+}
+
+@font-face {
+	font-family: fuente20;
+	src: url(fonts/ReenieBeanie.ttf);
+}
+
+@font-face {
+	font-family: fuente21;
+	src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+	font-family: fuente22;
+	src: url(fonts/RockSalt.ttf);
+}
+
+@font-face {
+	font-family: fuente23;
+	src: url(fonts/Sacramento-Regular.ttf);
+}
+
+@font-face {
+	font-family: fuente24;
+	src: url(fonts/ShadowsIntoLight.ttf);
+}
+
+@font-face {
+	font-family: fuente25;
+	src: url(fonts/SigmarOne.ttf);
+}
+
+@font-face {
+	font-family: fuente26;
+	src: url(fonts/SpecialElite.ttf);
+}
+
+@font-face {
+	font-family: fuente27;
+	src: url(fonts/WalterTurncoat.ttf);
 }
 
 ::-webkit-input-placeholder {
@@ -117,7 +213,7 @@ body {
 	animation: AnimationName 8s ease infinite;
 }
 
-header{
+header {
 	padding-top: 18em !important;
 }
 
